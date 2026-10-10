@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "numeric_tables_identical": 8,
+  "pdf_pages": {
+    "fr": 10,
+    "en": 10
+  },
+  "author": "mandia",
+  "python_syntax": "pass",
+  "local_markdown_links": "pass"
+}

@@ -1,10 +1,14 @@
 # Expansion modulaire d’un petit modèle français : adaptation juridique, ordre des domaines et routage des termes
 
-**Manuscrit expérimental du 10 octobre 2026 — version publique exploratoire.** Auteur : **mandia**. Affiliation non renseignée. Manuscrit non évalué par les pairs ; aucune soumission arXiv annoncée. Étude exploratoire ; le protocole confirmatoire à quatre domaines reste à exécuter.
+**mandia**
+
+Version 1.0, 10 octobre 2026. Étude expérimentale exploratoire. Manuscrit non évalué par les pairs.
 
 ## Résumé
 
 Nous étudions l’ajout de modules indépendants à un modèle de langage français de 17 129 280 paramètres entraîné depuis zéro. Un premier pilote à taux d’apprentissage unique est prolongé par une recherche identique de trois taux par méthode, une ablation de capacité, trois nouvelles graines et deux ordres d’adaptation. L’extension compare l’entraînement complet, deux tailles d’adapters résiduels MCE et deux rangs LoRA. Les réglages sont sélectionnés sur validation, puis les modèles finaux sont évalués sur le test réservé. Dans l’ordre civil puis pénal, MCE 256 réduit la loss test civile de 4.823 à 3.685 et pénale de 4.683 à 3.716 nats/token ; LoRA r32 atteint respectivement 3.649 et 3.788. Les routes antérieures gelées sont conservées par construction et vérifiées, propriété également partagée par les banques LoRA. Un routeur appris à partir du terme seul obtient une accuracy test de 83.2 % et un macro F1 de 0.791 ; son impact sur la loss de complétion des définitions est mesuré séparément. Ces résultats caractérisent un compromis d’adaptation, de conservation et de sélection d’expert sur un glossaire. Ils n’établissent ni supériorité générale, ni raisonnement juridique, ni nouveauté architecturale.
+
+**Mots-clés :** apprentissage continu ; adaptation efficace en paramètres ; modèles de langue ; routage d’experts ; modélisation de définitions.
 
 ## 1. Introduction et question de recherche
 
@@ -30,7 +34,7 @@ Cette proposition concerne la sortie d’un chemin fixé, pas la réussite d’u
 
 ## 3. Données et audit
 
-Le fichier de Drive correspond par SHA-256 au dataset `bernard-ng/french-legal-glossary`, révision `f8c850c424af7a60ee55cf9eaf050cf05b59aba7` [4]. Sa fiche déclare CC BY-NC-SA 4.0. Cette déclaration ne vérifie pas indépendamment les droits des textes sous-jacents, leur juridiction ou leur date. Les données et poids de l’étude restent privés.
+Le fichier source correspond par SHA-256 au dataset `bernard-ng/french-legal-glossary`, révision `f8c850c424af7a60ee55cf9eaf050cf05b59aba7` [4]. Sa fiche déclare CC BY-NC-SA 4.0. Cette déclaration ne vérifie pas indépendamment les droits des textes sous-jacents, leur juridiction ou leur date. Les données textuelles et les poids de l’étude ne sont pas distribués dans cette version.
 
 Nous retenons uniquement les catégories exactes « Droit civil » et « Droit pénal », après filtres de longueur, nombre de mots et termes multilignes. Les textes et définitions exactes sont dédupliqués globalement ; les familles partageant le premier mot du terme sont regroupées avant split. Les quasi-doublons sont recherchés par Jaccard de 5-grammes de mots à seuil 0,85, sans paire supplémentaire trouvée. Les groupes déterminent le split 80/10/10 par hash ; aucun groupe ni doublon exact ne traverse les splits.
 
@@ -39,7 +43,7 @@ Nous retenons uniquement les catégories exactes « Droit civil » et « Droit p
 | Civil | 788 / 143 273 | 88 / 15 748 | 105 / 18 628 |
 | Pénal | 207 / 37 216 | 28 / 5 337 | 50 / 7 574 |
 
-L’audit supplémentaire compare les 5-grammes de chaque définition aux 27,587 documents du train général. Un signal requiert au moins 20 5-grammes communs et une couverture d’au moins 50 % dans un même document général. Il signale 1 définition(s), réparties ainsi : `{"penal_train": 1}`. Ce contrôle lexical ne mesure pas le chevauchement sémantique. Le train n’est pas modifié après cet audit ; une analyse de sensibilité distincte retire les documents test signalés, si présents. Les deux sous-domaines restent liés par leur source, leur style et leurs concepts.
+L’audit supplémentaire compare les 5-grammes de chaque définition aux 27 587 documents du train général. Un signal requiert au moins 20 5-grammes communs et une couverture d’au moins 50 % dans un même document général. Il signale une définition pénale du train ; aucun document test n’atteint le seuil fixé. Ce contrôle lexical ne mesure pas le chevauchement sémantique. Le train n’est pas modifié après cet audit ; une analyse de sensibilité distincte retire les documents test signalés, si présents. Les deux sous-domaines restent liés par leur source, leur style et leurs concepts.
 
 ## 4. Protocole de l’extension
 
@@ -60,19 +64,19 @@ Les cinq LR sont ensuite gelés et empreintés avant évaluation test. Les grain
 
 ### 4.2 Budget et entraînement
 
-Chaque modèle final reçoit 300 mises à jour par domaine, batch 4, séquence 256 : 307 200 tokens par domaine, 614 400 au total. L’extension entraîne 15 modèles de réglage et 30 modèles finaux, soit 27,648,000 tokens d’adaptation en comptant toutes les méthodes et recherches. Les fenêtres sont préenregistrées et identiques par domaine et graine pour tous les modèles ; les graines d’initialisation par domaine sont conservées lors de l’inversion. Le pénal voit environ 8,25 fois le volume de son train en tokens échantillonnés : la répétition peut contribuer au surapprentissage.
+Chaque modèle final reçoit 300 mises à jour par domaine, batch 4, séquence 256 : 307 200 tokens par domaine, 614 400 au total. L’extension entraîne 15 modèles de réglage et 30 modèles finaux, soit 27 648 000 tokens d’adaptation en comptant toutes les méthodes et recherches. Les fenêtres sont préenregistrées et identiques par domaine et graine pour tous les modèles ; les graines d’initialisation par domaine sont conservées lors de l’inversion. Le pénal voit environ 8,25 fois le volume de son train en tokens échantillonnés : la répétition peut contribuer au surapprentissage.
 
 AdamW utilise betas 0,9/0,95, weight decay 0,1 sur matrices et 0 sur paramètres vectoriels, clip 1, chauffe 30 pas puis cosinus jusqu’à 10 % du LR maximal. Optimiseur et calendrier redémarrent à chaque domaine. Le checkpoint est fixé au dernier pas 300 ; les points 100 et 200 ne servent pas à sélectionner un checkpoint. Les cœurs PEFT restent en eval pendant l’adaptation, leurs modules ont dropout 0,1 ; le complet utilise le dropout du cœur en mode train. Cette différence est une limite de comparaison. Le calcul utilise autocast bfloat16 et poids float32 sur Tesla T4 avec PyTorch 2.11.0+cu130, sans BF16 matériel natif revendiqué.
 
 ### 4.3 Mesures et incertitude
 
-Nous mesurons la cross-entropy en nats/token, plus faible étant préférable. La validation juridique conserve les concaténations du pilote ; le test juridique est évalué par document, en blocs de contexte 256, sans transition entre documents. Le premier token d’un document n’est pas prédit et l’EOS l’est. Les tests civil et pénal comportent 18,523 et 7,524 cibles. Le général utilise 8192 cibles fixes de validation puis 8192 cibles distinctes de test. Ce sont des estimations partielles ; elles ne se mélangent pas à l’ancienne validation générale complète en contexte 512.
+Nous mesurons la cross-entropy en nats/token, plus faible étant préférable. La validation juridique conserve les concaténations du pilote ; le test juridique est évalué par document, en blocs de contexte 256, sans transition entre documents. Le premier token d’un document n’est pas prédit et l’EOS l’est. Les tests civil et pénal comportent 18 523 et 7 524 cibles. Le général utilise 8192 cibles fixes de validation puis 8192 cibles distinctes de test. Ce sont des estimations partielles ; elles ne se mélangent pas à l’ancienne validation générale complète en contexte 512.
 
 Les tableaux donnent moyenne ± écart-type sur trois graines. L’oubli du premier domaine est max(0, loss finale de validation − loss à la fin de son premier entraînement). Pour les comparaisons de capacité voisine, les NLL documentaires sont moyennées sur les graines, puis un bootstrap apparié par groupes de termes fournit 2000 tirages et un intervalle descriptif à 95 %. Il respecte l’appariement des documents, mais ne couvre ni la variabilité du préentraînement, ni celle des splits ou de la recherche de LR. Les intervalles sont exploratoires ; aucun test confirmatoire de significativité n’est annoncé.
 
 ## 5. Résultats sur test réservé
 
-### civil → penal
+### Civil puis pénal
 
 | Méthode | LR retenu | Test général | Test civil | Test pénal | Oubli du premier domaine (validation) |
 |---|---:|---:|---:|---:|---:|
@@ -82,7 +86,7 @@ Les tableaux donnent moyenne ± écart-type sur trois graines. L’oubli du prem
 | LoRA r8 | 0.0010 | 4.414 ± 0.000 | 3.782 ± 0.001 | 3.736 ± 0.003 | 0.000 ± 0.000 |
 | LoRA r32 | 0.0010 | 4.414 ± 0.000 | 3.649 ± 0.004 | 3.788 ± 0.011 | 0.000 ± 0.000 |
 
-### penal → civil
+### Pénal puis civil
 
 | Méthode | LR retenu | Test général | Test civil | Test pénal | Oubli du premier domaine (validation) |
 |---|---:|---:|---:|---:|---:|
@@ -116,9 +120,9 @@ L’entraînement complet illustre le compromis avec la conservation : après ci
 
 Une différence négative favorise MCE. Les comparaisons opposent MCE 256 à LoRA r32, puis MCE 64 à LoRA r8. Elles répondent à la question du compromis de capacité dans cette grille précise. Elles ne prouvent pas une supériorité sur toutes les implémentations, rangs ou hyperparamètres LoRA.
 
-MCE 256 face à LoRA r32 : sur le civil, l’écart moyen favorise LoRA r32 (+0.036 nats/token) et son intervalle descriptif reste entièrement positif ; sur le penal, l’écart moyen favorise MCE 256 (-0.073 nats/token) et son intervalle descriptif reste entièrement négatif.
+MCE 256 face à LoRA r32 : sur le civil, l’écart moyen favorise LoRA r32 (+0.036 nats/token) et son intervalle descriptif reste entièrement positif ; sur le pénal, l’écart moyen favorise MCE 256 (-0.073 nats/token) et son intervalle descriptif reste entièrement négatif.
 
-MCE 64 face à LoRA r8 : sur le civil, l’écart moyen favorise MCE 64 (-0.001 nats/token) et son intervalle descriptif inclut zéro ; sur le penal, l’écart moyen favorise MCE 64 (-0.026 nats/token) et son intervalle descriptif reste entièrement négatif.
+MCE 64 face à LoRA r8 : sur le civil, l’écart moyen favorise MCE 64 (-0.001 nats/token) et son intervalle descriptif inclut zéro ; sur le pénal, l’écart moyen favorise MCE 64 (-0.026 nats/token) et son intervalle descriptif reste entièrement négatif.
 
 Réduire MCE de 256 à 64 coûte 0.096 nats/token sur le test civil. Sur le pénal, les moyennes sont 3.716 pour MCE 256 et 3.710 pour MCE 64 : la capacité supérieure n’apporte donc pas un gain uniforme dans cette expérience. Cette comparaison reste descriptive et ne fixe pas une taille optimale pour d’autres données.
 
@@ -208,3 +212,5 @@ OpenAI Codex a été utilisé pour assister l’implémentation, l’exécution 
 Le protocole principal de l’extension est `protocol.md`, l’annexe du routeur `router_protocol_predefined.md`. `selected_hyperparameters.json` conserve les LR avant test ; `tuning_results.json` conserve les quinze essais. `validation_curves.json` comporte 945 lignes de mesures ; `test_results.json`, 90 lignes de résultats comprenant NLL par document et fenêtres générales. `routed_test_results.json` comporte 48 résultats de complétion sous route prédite. `reload_checks.json` contient les trente reconstructions. Les sources exactes du modèle, des banques, du runner et du routeur sont sauvegardées avec le manifeste. Les checkpoints sont des modèles finaux d’inférence ; leur reprise d’optimiseur n’est pas enregistrée.
 
 Dans le dépôt public, ces fichiers numériques se trouvent dans `results/evidence/` ; les protocoles sont dans `docs/`. Les modèles et banques sont les sources exécutées ; les runners publiés dans `experiments/` adaptent les chemins locaux et le montage cloud du runner historique. Le code de génération du PDF est `scripts/render_paper.py` (ReportLab, avec `MCE_FONTS_DIR` pointant vers les fontes DejaVu).
+
+Les manuscrits français et anglais rapportent les mêmes observations et constituent deux versions linguistiques d’une seule étude.

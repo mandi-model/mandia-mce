@@ -22,7 +22,8 @@ Ce contrôle local porte sur un petit modèle aléatoire. Il ne remplace ni l’
 
 - `mandi_model.py` et `mandi_mce_v1.py` sont identiques octet par octet aux sources exécutées dans l’expérience archivée.
 - Tous les scripts Python et les cellules Python du notebook de réanalyse sont vérifiés en syntaxe.
-- Le PDF public compte **10 pages**, auteur **mandia** ; ses 10 pages ont été rendues et examinées visuellement.
+- Chaque PDF, français et anglais, compte **10 pages**, auteur **mandia** ; les 20 pages ont été rendues et examinées visuellement.
+- Les huit tableaux des deux manuscrits contiennent les mêmes cellules numériques. Le rapport figure dans `results/bilingual_validation.json`.
 - Les liens cloud privés et chemins du compte local ont été retirés. Les observations diffusées ne comportent aucun champ de texte documentaire, terme, vocabulaire ou email.
 - Les liens relatifs Markdown sont contrôlés et les fichiers sont couverts par `release_manifest.json`.
 

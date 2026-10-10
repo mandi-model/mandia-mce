@@ -1,54 +1,43 @@
-# Mandia — Modular Continual Expansion (MCE)
+# Mandia MCE
 
-**Une étude exploratoire sur l’adaptation modulaire d’un petit modèle français.**
+Experimental study of modular adaptation in a small French language model.
 
-Auteur : **mandia** · expérience du 10 octobre 2026 · manuscrit non évalué par les pairs.
+**English** | [Français](README.fr.md)
 
-[English overview](README.en.md) · [Article complet](paper/article.fr.md) · [Article PDF](paper/article.fr.pdf) · [Architecture](docs/architecture.md) · [Reproduction](docs/reproduction.md) · [Préparation arXiv](docs/arxiv.md) · [Validation](docs/validation.md)
+Author: **mandia**. Study completed on 10 October 2026. Manuscript version 1.0. Not peer reviewed.
 
-## La question
+| Manuscript | Source | PDF |
+|---|---|---|
+| English | [Full article](paper/article.en.md) | [Download](paper/article.en.pdf) |
+| Français | [Article complet](paper/article.fr.md) | [Télécharger](paper/article.fr.pdf) |
 
-Peut-on ajouter un domaine à un modèle de langage en entraînant des modules spécialisés, tout en conservant les chemins déjà appris ? MCE conserve un cœur partagé gelé et ajoute une banque de petits modules par domaine. L’expérience compare cette stratégie à un entraînement complet et à des banques LoRA indépendantes.
+## Research question
 
-Le cœur de **17 129 280 paramètres** a été initialisé aléatoirement et préentraîné sur **14 753 792 tokens vus** de français général. Aucun poids préentraîné d’IvoireSLM n’a servi à cette expérience. Il reste un petit modèle faiblement préentraîné, sans démonstration de capacités de raisonnement.
+We examine whether independent domain modules can adapt a small language model while preserving previously frozen computational routes. The study compares residual Modular Continual Expansion (MCE) adapters, separate LoRA banks, and full fine-tuning on civil and penal definitions from one French legal glossary.
 
-## Ce qui a été exécuté
+The shared Transformer has **17,129,280 parameters** and was pretrained from random initialization on **14,753,792 observed training tokens**. No pretrained IvoireSLM weights were used. Five methods are evaluated with the same three-candidate learning-rate search, followed by three adaptation seeds and both domain orders: **15 tuning runs and 30 final models**. Each domain receives 300 updates, batch size 4, and context length 256.
 
-- Cinq méthodes : complet, MCE 256, MCE 64, LoRA r8, LoRA r32.
-- Deux sous-domaines d’un même glossaire : droit civil et droit pénal.
-- Trois taux d’apprentissage par méthode, sélectionnés sur validation avant test : **15 modèles de réglage**.
-- Trois graines d’adaptation et deux ordres des domaines : **30 modèles finaux**.
-- 300 pas par domaine, batch 4, contexte 256 : **307 200 tokens par domaine et modèle**.
-- Vérification du gel des paramètres, des anciennes routes et du rechargement des checkpoints.
-- Un routeur de termes TF-IDF + régression logistique, puis mesure du coût de ses erreurs.
+## Main results
 
-Les observations numériques, les scripts et les protocoles sont inclus. Les données textuelles, le tokenizer et les poids ne sont pas distribués. La réanalyse est accessible immédiatement ; le réentraînement exact requiert les entrées archivées décrites dans [Reproduction](docs/reproduction.md).
+Held-out test cross-entropy in nats per token; lower is better. Means across three adaptation seeds, civil-then-penal order, with the domain route supplied for each independent bank:
 
-## Résultats principaux
-
-Loss test en nats par token, **plus faible = meilleur**. Moyenne sur trois graines, ordre **civil puis pénal**, route fournie pour chaque banque :
-
-| Méthode | Paramètres entraînés / domaine | Général | Civil | Pénal |
+| Method | Trainable parameters per domain | General | Civil | Penal |
 |---|---:|---:|---:|---:|
-| Complet | 17 129 280 | 5,772 | 3,920 | 3,442 |
-| MCE 256 | 1 969 920 | 4,414 | 3,685 | 3,716 |
-| MCE 64 | 495 360 | 4,414 | 3,780 | 3,710 |
-| LoRA r8 | 516 096 | 4,414 | 3,782 | 3,736 |
-| LoRA r32 | 2 064 384 | 4,414 | 3,649 | 3,788 |
+| Full fine-tuning | 17,129,280 | 5.772 | 3.920 | 3.442 |
+| MCE 256 | 1,969,920 | 4.414 | 3.685 | 3.716 |
+| MCE 64 | 495,360 | 4.414 | 3.780 | 3.710 |
+| LoRA r8 | 516,096 | 4.414 | 3.782 | 3.736 |
+| LoRA r32 | 2,064,384 | 4.414 | 3.649 | 3.788 |
 
-![Comparaison des losses sur les deux ordres](results/figures/figure_test_extension.png)
+![Held-out test losses in both domain orders](results/figures/test_results.en.png)
 
-Les écarts types et le second ordre figurent dans le [tableau complet](results/tableau_test_extension.csv). Les banques produisent les mêmes losses pour les deux ordres à graine identique : ce contrôle structurel ne constitue pas six répétitions indépendantes.
+MCE and independent LoRA banks preserve their frozen routes exactly in this experiment. At nearby capacities, LoRA r32 has lower civil loss than MCE 256, while MCE 256 has lower penal loss. Full fine-tuning adapts strongly to the final domain but increases general-language loss. These results do not establish a universally superior method. The full manuscript reports both orders, standard deviations, paired descriptive intervals, training costs, and preservation checks.
 
-**Interprétation :** le cœur et les anciennes routes gelées se conservent exactement dans cette expérience. Cette propriété bénéficie aussi aux banques LoRA. À capacité voisine, LoRA r32 obtient une meilleure loss civile que MCE 256 ; MCE 256 obtient une meilleure loss pénale. L’entraînement complet adapte fortement le dernier domaine mais dégrade le général. Ces comparaisons ne démontrent aucune supériorité générale de MCE.
+A closed-set term router achieves **83.2% accuracy** and **0.791 macro-F1** on 155 legal terms, compared with **67.7%** majority-class accuracy. Penal recall is **60%**. Predicted-route definition losses are evaluated separately. The router is not evaluated on free-form questions or out-of-distribution detection.
 
-Le routeur reçoit uniquement un **terme juridique**, sans sa définition : accuracy **83,2 %**, macro-F1 **0,791**, contre **67,7 %** pour la classe majoritaire, sur 155 termes test. Son rappel pénal n’est que **60 %**. Il n’a pas été évalué sur des questions libres et ne détecte pas le hors distribution. Les erreurs de route augmentent la loss des définitions ; le manuscrit les mesure séparément du routage fourni.
+## Reanalysis
 
-[Ouvrir la réanalyse dans Colab](https://colab.research.google.com/github/mandi-model/mandia-mce/blob/main/notebooks/reanalysis.ipynb)
-
-## Démarrer
-
-Python 3.12 conseillé pour la réanalyse :
+The release contains numerical observations without corpus text, term vocabulary, tokenizer, or model weights. Term-group labels are replaced by stable hashes. The statistical calculations can be reproduced without a GPU:
 
 ```bash
 python -m venv .venv
@@ -57,48 +46,42 @@ python -m pip install -r requirements-analysis.txt
 python scripts/verify_release.py
 python scripts/analyser_extension.py results/evidence analysis-output
 python scripts/analyser_routeur.py
+python scripts/figures_english.py analysis-output
 ```
 
-Les tableaux, intervalles descriptifs et figures sont recalculés depuis les observations, sans GPU et sans accès au stockage de l’auteur. Les groupes de termes sont remplacés par des identifiants SHA-256 stables, ce qui préserve le bootstrap groupé.
+[Colab reanalysis notebook](https://colab.research.google.com/github/mandi-model/mandia-mce/blob/main/notebooks/reanalysis.ipynb)
 
-Pour vérifier le gel et la conservation après une mise à jour réelle sur CPU :
+The tables and paired intervals were independently recomputed from the release at absolute tolerance 1e-10. Router metrics and group intervals were also reproduced. A CPU check performs actual updates on miniature random MCE/LoRA models and verifies frozen weights, gradients, previous-route logits, and checkpoint reconstruction:
 
 ```bash
 python -m pip install -r requirements.txt
 python scripts/smoke_model.py
 ```
 
-Cette démonstration utilise un modèle miniature aléatoire ; elle ne réexécute pas l’étude juridique. Les scripts GPU dans `experiments/` sont une version portable du runner historique ; leurs chemins d’entrée sont configurables. Voir [les prérequis et commandes](docs/reproduction.md).
+Exact retraining requires archived corpus inputs and the pretrained core, which are not distributed. The portable GPU runner is syntax-checked and derived from the executed historical runner; it was not rerun for this release. See [reproduction instructions](docs/reproduction.en.md) and the [validation report](docs/validation.en.md).
 
-## Organisation
+## Scope and limitations
 
-| Chemin | Contenu |
+This is an exploratory study with one weakly pretrained core, one split, one glossary, two related domains, and three adaptation seeds. Dropout differs between full and frozen-core methods. Parameter counts are close; FLOPs are not equalized. The clustered bootstrap is conditional on this core and split. Definition likelihood does not establish legal reasoning or factual accuracy. Preserving a fixed route does not guarantee correct expert selection.
+
+Frozen-path preservation has precedents in [progressive networks](https://arxiv.org/abs/1606.04671), [NLP adapters](https://proceedings.mlr.press/v97/houlsby19a.html), and [LoRA](https://arxiv.org/abs/2106.09685). Architectural novelty is not claimed. Expert cooperation, fusion, broader multi-corpus evaluation, replay baselines, and open routing remain future experiments. [Architecture](docs/architecture.en.md).
+
+## Repository contents
+
+| Location | Contents |
 |---|---|
-| `mandi_model.py` | Transformer causal, RMSNorm, RoPE, SwiGLU, embeddings liés |
-| `mandi_mce_v1.py` | Modules résiduels MCE et banques LoRA par domaine |
-| `charger_etude_mce.py` | Reconstruction vérifiée depuis des checkpoints fournis séparément |
-| `routeur_termes_mce.py` | Inférence du routeur depuis son état JSON fourni séparément |
-| `experiments/` | Extension GPU et évaluation du routage |
-| `scripts/` | Réanalyse, contrôle des empreintes, vérification CPU |
-| `results/evidence/` | Observations numériques, contrôles et provenance |
-| `results/figures/` | Figures de l’expérience achevée |
-| `docs/` | Architecture, protocoles, provenance, reproduction, limites, arXiv |
-| `paper/` | Manuscrit français et PDF publics |
+| Root Python modules | Causal Transformer, residual adapters, separate LoRA banks, checkpoint loader, router inference |
+| `experiments/` | Portable GPU extension and routing evaluation |
+| `scripts/` | Statistical reanalysis, English figures, integrity checks, CPU verification, PDF rendering |
+| `results/evidence/` | Numerical observations, controls, and provenance |
+| `results/figures/` | Figures in French and English |
+| `paper/` | Complete manuscripts in French and English, Markdown and PDF |
+| `docs/` | Architecture, protocols, reproduction, validation, data provenance, and arXiv preparation |
 
-## Limites et suites
+## Provenance and citation
 
-Un seul cœur, un seul split, un seul glossaire, deux sous-domaines proches et trois graines d’adaptation limitent la portée. Le dropout du complet diffère de celui des banques. Les budgets de paramètres sont voisins, les FLOPs ne sont pas égalisés. L’audit lexical ne vérifie pas la contamination sémantique. Les losses sur des définitions ne mesurent ni exactitude juridique ni raisonnement.
+Legal data originate from [bernard-ng/french-legal-glossary](https://huggingface.co/datasets/bernard-ng/french-legal-glossary), revision `f8c850c424af7a60ee55cf9eaf050cf05b59aba7`. The dataset card declares **CC BY-NC-SA 4.0**; underlying-text rights and legal accuracy were not independently verified. Corpus texts and weights are excluded. Public repository access does not grant a general redistribution or commercial-use license. [Data and rights](docs/data.md).
 
-La conservation dépend du gel, de la route choisie et de l’inférence déterministe. Il n’y a ni fusion ni coopération entre experts. Le protocole droit/histoire/science/économie, plusieurs cœurs et splits, un contrôle du dropout, les baselines de replay et le routage ouvert restent **à exécuter**. Voir [la feuille de route](docs/limitations.md).
+Suggested citation: **mandia (2026). Modular Expansion of a Small French Language Model: Legal Adaptation, Domain Order, and Term Routing. Version 1.0.** The French and English manuscripts are language versions of the same study. No DOI or arXiv identifier has been assigned. [arXiv preparation](docs/arxiv.en.md).
 
-MCE s’inscrit dans des travaux antérieurs sur l’expansion progressive, les adapters et LoRA. La conservation par gel n’est pas une nouveauté revendiquée. Voir [les références et les différences](docs/architecture.md).
-
-## Provenance, droits et citation
-
-Le glossaire provient de [bernard-ng/french-legal-glossary](https://huggingface.co/datasets/bernard-ng/french-legal-glossary), révision `f8c850c424af7a60ee55cf9eaf050cf05b59aba7`, avec une licence déclarée **CC BY-NC-SA 4.0**. Les textes et poids ne sont pas inclus. Voir [la fiche de provenance et les droits](docs/data.md).
-
-Le code et la documentation sont consultables publiquement. Aucune licence générale de réutilisation n’est accordée à cette première version ; ne pas interpréter l’accès public comme une autorisation de redistribution ou d’usage commercial. La licence du dataset reste distincte.
-
-Citation proposée : **mandia (2026). Expansion modulaire d’un petit modèle français : adaptation juridique, ordre des domaines et routage des termes. Manuscrit exploratoire et dépôt logiciel Mandia MCE.** Aucun DOI ni identifiant arXiv n’est attribué à ce travail à cette date.
-
-OpenAI Codex a assisté le code, l’exécution, l’analyse et la rédaction. Les résultats proviennent d’une expérience exécutée et de ses fichiers observés ; la relecture et la responsabilité scientifiques demeurent celles de l’auteur.
+OpenAI Codex assisted implementation, experiment execution, analysis, and manuscript preparation. Scientific interpretation, review, and author responsibility remain human. This disclosure documents the workflow; it is not a claim of independent scientific validation.

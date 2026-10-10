@@ -70,16 +70,16 @@ while i<len(lines):
   paragraph.append(lines[i].strip());i+=1
  story.append(Paragraph(markup(' '.join(paragraph)),styles['body']))
 for start,flow in enumerate(story):
- if isinstance(flow,Paragraph) and flow.text=='Références':
+ if isinstance(flow,Paragraph) and flow.text in ('Références','References'):
   stop=next((j for j in range(start+1,len(story)) if isinstance(story[j],Paragraph) and story[j].style.name=='h2'),len(story))
   story[start:stop]=[KeepTogether(story[start:stop])]
   break
 def page(canvas,doc):
  canvas.saveState();canvas.setFont('DV',7.4);canvas.setFillColor(colors.HexColor('#667780'))
- canvas.drawString(46,A4[1]-28,'MANDI RESEARCH  /  ÉTUDE EXPLORATOIRE')
+ canvas.drawString(46,A4[1]-28,'MANDIA RESEARCH  /  EXPLORATORY STUDY' if source.name.endswith('.en.md') else 'MANDIA RESEARCH  /  ÉTUDE EXPLORATOIRE')
  canvas.setStrokeColor(colors.HexColor('#d2dee1'));canvas.line(46,A4[1]-34,A4[0]-46,A4[1]-34)
- canvas.drawString(46,25,'Brouillon privé - 10 octobre 2026')
+ canvas.drawString(46,25,'Version 1.0 - 10 October 2026' if source.name.endswith('.en.md') else 'Version 1.0 - 10 octobre 2026')
  canvas.drawRightString(A4[0]-46,25,str(doc.page));canvas.restoreState()
-doc=SimpleDocTemplate(str(dest),pagesize=A4,rightMargin=46,leftMargin=46,topMargin=48,bottomMargin=43,title='Mandi - Expansion modulaire et routage juridique',author='mandia',subject='Étude expérimentale exploratoire sur un glossaire français',pageCompression=1)
+doc=SimpleDocTemplate(str(dest),pagesize=A4,rightMargin=46,leftMargin=46,topMargin=48,bottomMargin=43,title=source.read_text().splitlines()[0].removeprefix('# '),author='mandia',subject='Exploratory experimental study on a French legal glossary' if source.name.endswith('.en.md') else 'Étude expérimentale exploratoire sur un glossaire français',pageCompression=1)
 doc.build(story,onFirstPage=page,onLaterPages=page)
 print(dest,dest.stat().st_size)

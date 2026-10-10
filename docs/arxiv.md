@@ -10,7 +10,7 @@ Une catégorie possible serait **cs.CL**, avec **cs.LG** éventuellement pertine
 
 ## Conditions à satisfaire
 
-1. **Version intégrale anglaise.** arXiv exige une version anglaise de tout l’article, même si le français est conservé. Le README anglais de ce dépôt ne remplit pas cette exigence. Pour une version bilingue, l’anglais doit apparaître avant le français. [Règle officielle sur les langues](https://info.arxiv.org/help/faq/multilang.html).
+1. **Version intégrale anglaise préparée.** arXiv exige une version anglaise de tout l’article, même si le français est conservé. Le dépôt contient désormais les deux manuscrits complets, avec tableaux concordants et figures traduites. Pour une version bilingue, l’anglais doit apparaître avant le français. [Règle officielle sur les langues](https://info.arxiv.org/help/faq/multilang.html).
 2. **Auteur et compte.** L’auteur doit disposer d’un compte approprié et ne pas présenter une identité ou affiliation trompeuse. Le nom fourni pour ce travail est « mandia » ; sa représentation dans le manuscrit et les métadonnées devra être vérifiée par l’auteur, sans inventer d’affiliation. [Identité et affiliation](https://info.arxiv.org/help/policies/identity_and_affiliation.html).
 3. **Endorsement.** Un premier dépôt ou une nouvelle catégorie peut nécessiter un parrainage. Les règles actuelles prévoient notamment une voie fondée sur une publication revendiquée et un email institutionnel, ou un parrainage personnel par un auteur qualifié. Un email institutionnel seul ne garantit pas l’accès. [Endorsement](https://info.arxiv.org/help/endorsement.html).
 4. **Relecture scientifique et assistance IA.** Vérifier personnellement résultats, références, interprétations et contributions. L’utilisation significative de l’IA générative doit être déclarée ; l’IA ne doit pas être coauteur et la responsabilité reste humaine. Une déclaration est déjà ajoutée au manuscrit public. [Politique de modération, section IA](https://info.arxiv.org/help/moderation/index.html).
@@ -19,11 +19,11 @@ Une catégorie possible serait **cs.CL**, avec **cs.LG** éventuellement pertine
 
 ## Travail à effectuer avant de déposer
 
-- Traduire l’article complet en anglais et vérifier la cohérence numérique de chaque tableau.
+- Relire les deux versions complètes ; leur cohérence numérique a été contrôlée.
 - Définir clairement la contribution expérimentale par rapport à adapters, LoRA et expansion progressive.
 - Faire relire le manuscrit par un chercheur du domaine et corriger les limites de reproductibilité.
 - Si possible, ajouter une réplication sur plusieurs cœurs/splits et des données moins étroitement liées.
 - Confirmer l’identité de l’auteur, le compte, la catégorie et l’éventuel endorsement.
 - Préparer les fichiers définitifs, choisir les droits de diffusion, puis procéder au dépôt via le compte de l’auteur.
 
-Il est possible d’avancer maintenant sur la version anglaise et la relecture. Le dépôt effectif reste une étape distincte ; aucune promesse d’acceptation ne doit figurer dans le post de partage.
+La version anglaise est préparée ; la relecture scientifique et les vérifications administratives restent nécessaires. Le dépôt effectif reste une étape distincte ; aucune promesse d’acceptation ne doit figurer dans le post de partage.
