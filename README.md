@@ -4,7 +4,7 @@
 
 Auteur : **mandia** · expérience du 10 octobre 2026 · manuscrit non évalué par les pairs.
 
-[English overview](README.en.md) · [Article complet](paper/article.fr.md) · [Article PDF](paper/article.fr.pdf) · [Architecture](docs/architecture.md) · [Reproduction](docs/reproduction.md) · [Préparation arXiv](docs/arxiv.md)
+[English overview](README.en.md) · [Article complet](paper/article.fr.md) · [Article PDF](paper/article.fr.pdf) · [Architecture](docs/architecture.md) · [Reproduction](docs/reproduction.md) · [Préparation arXiv](docs/arxiv.md) · [Validation](docs/validation.md)
 
 ## La question
 

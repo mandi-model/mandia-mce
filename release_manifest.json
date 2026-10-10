@@ -16,8 +16,8 @@
       "sha256": "d7098751eeba29c2a8cf0fa01a994887dc51ce6c06f2199d1b55770158d88b8a"
     },
     "README.md": {
-      "bytes": 8065,
-      "sha256": "8c40378c613204f62c67752a4e4646b691d3dfc90a8fb91a6d5c4cc78a1b3606"
+      "bytes": 8101,
+      "sha256": "d18f564649815b380578211ab43b713df63134c2d6af7bb2947d03dd6b6f48dc"
     },
     "charger_etude_mce.py": {
       "bytes": 3185,
@@ -50,6 +50,10 @@
     "docs/reproduction.md": {
       "bytes": 5181,
       "sha256": "32b9e753434f93873099d3ce2a81cd3fde46e0323d0774e395f8c6e5bbe5c735"
+    },
+    "docs/validation.md": {
+      "bytes": 2738,
+      "sha256": "4884307737b8eecc6537c748c646ad88ee9e04826c7491e3da22c11d9649ea78"
     },
     "experiments/run_all.py": {
       "bytes": 650,
@@ -92,8 +96,8 @@
       "sha256": "6bb5bf5579218a54762f2b95b9b941893d2df03cbe8497622f0fe5d4c4897efa"
     },
     "requirements.txt": {
-      "bytes": 77,
-      "sha256": "8a0b7f3aad8968ed2453339e3712d2179c72b849c407bc0ff6a00f8e67bedf51"
+      "bytes": 78,
+      "sha256": "479ef9ce5fd054f7ff919ad841b12da5c7f224ca510cd8f5e6125a389be2d2fd"
     },
     "results/analyse_routeur_mce.json": {
       "bytes": 3766,
