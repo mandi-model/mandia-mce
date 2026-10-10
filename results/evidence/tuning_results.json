@@ -1,0 +1,167 @@
+[
+  {
+    "method": "full",
+    "seed": 20261012,
+    "lr": 0.0001,
+    "validation_mean_legal": 3.5747675492464586,
+    "final_losses": {
+      "general": 5.5515037924051285,
+      "civil": 3.9349334187724745,
+      "penal": 3.2146016797204426
+    }
+  },
+  {
+    "method": "full",
+    "seed": 20261012,
+    "lr": 0.0003,
+    "validation_mean_legal": 3.9004151280374506,
+    "final_losses": {
+      "general": 7.138037815690041,
+      "civil": 4.396531162030615,
+      "penal": 3.4042990940442865
+    }
+  },
+  {
+    "method": "full",
+    "seed": 20261012,
+    "lr": 0.001,
+    "validation_mean_legal": 4.34002581042701,
+    "final_losses": {
+      "general": 8.284740030765533,
+      "civil": 4.98191718282401,
+      "penal": 3.6981344380300083
+    }
+  },
+  {
+    "method": "MCE",
+    "seed": 20261012,
+    "lr": 0.0001,
+    "validation_mean_legal": 3.805307245225947,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.9515704620510554,
+      "penal": 3.6590440284008388
+    }
+  },
+  {
+    "method": "MCE",
+    "seed": 20261012,
+    "lr": 0.0003,
+    "validation_mean_legal": 3.6814240276497365,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.7980075011807806,
+      "penal": 3.5648405541186925
+    }
+  },
+  {
+    "method": "MCE",
+    "seed": 20261012,
+    "lr": 0.001,
+    "validation_mean_legal": 3.6189369596147087,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.6916499913984113,
+      "penal": 3.546223927831006
+    }
+  },
+  {
+    "method": "MCE64",
+    "seed": 20261012,
+    "lr": 0.0001,
+    "validation_mean_legal": 3.9922465601727097,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 4.145155403949711,
+      "penal": 3.8393377163957085
+    }
+  },
+  {
+    "method": "MCE64",
+    "seed": 20261012,
+    "lr": 0.0003,
+    "validation_mean_legal": 3.800994764677247,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.9487120306831756,
+      "penal": 3.6532774986713186
+    }
+  },
+  {
+    "method": "MCE64",
+    "seed": 20261012,
+    "lr": 0.001,
+    "validation_mean_legal": 3.66532809559879,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.7839662640664193,
+      "penal": 3.546689927131161
+    }
+  },
+  {
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "lr": 0.0001,
+    "validation_mean_legal": 4.108155014996255,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 4.252300789343059,
+      "penal": 3.9640092406494505
+    }
+  },
+  {
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "lr": 0.0003,
+    "validation_mean_legal": 3.8257180532904513,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.976645694169921,
+      "penal": 3.674790412410982
+    }
+  },
+  {
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "lr": 0.001,
+    "validation_mean_legal": 3.662013321160677,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.7816725561503284,
+      "penal": 3.542354086171026
+    }
+  },
+  {
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "lr": 0.0001,
+    "validation_mean_legal": 3.8510902861140415,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 4.0019823886965575,
+      "penal": 3.7001981835315254
+    }
+  },
+  {
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "lr": 0.0003,
+    "validation_mean_legal": 3.669303212322281,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.7947765138858296,
+      "penal": 3.543829910758732
+    }
+  },
+  {
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "lr": 0.001,
+    "validation_mean_legal": 3.6153189492000974,
+    "final_losses": {
+      "general": 4.0596074759960175,
+      "civil": 3.647080323397413,
+      "penal": 3.5835575750027817
+    }
+  }
+]

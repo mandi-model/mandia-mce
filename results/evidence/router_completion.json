@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "models_evaluated": 24,
+  "legal_result_rows": 48,
+  "no_test_based_training_or_selection": true,
+  "term_router_only": true
+}

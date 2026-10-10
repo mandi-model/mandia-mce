@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "run": "legalextended_20261010T195007_533059Z",
+  "elapsed_seconds": 2594.9451565420004,
+  "tuning_models": 15,
+  "evaluation_models": 30,
+  "trained_tokens_total": 27648000,
+  "selected_lr": {
+    "full": 0.0001,
+    "MCE": 0.001,
+    "MCE64": 0.001,
+    "LoRA_r8": 0.001,
+    "LoRA_r32": 0.001
+  },
+  "test_evaluated": true,
+  "reload_models": 30,
+  "maximum_reload_error": 0.0,
+  "private": true,
+  "confirmatory_four_domain_study_complete": false
+}

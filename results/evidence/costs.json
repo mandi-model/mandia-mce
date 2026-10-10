@@ -1,0 +1,1442 @@
+[
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 20.185418053002877,
+    "peak_gpu_bytes": 813012992
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 20.21481755299692,
+    "peak_gpu_bytes": 812095488
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 20.534191666998595,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 20.965428185000746,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.06494004299907,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.597408206998125,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.952330381000593,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.551666297999418,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.849059291001822,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.422508837999885,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.027879820000635,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.086365981002928,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.40916170899891,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.595870225000226,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.10428370400109,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.38872395199951,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.22964877300251,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.234013594000544,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.755883697001536,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.976223721998622,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.773576768003068,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.010385456000677,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.435425263995285,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.19702281300124,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.092595690000053,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 26.30692180899655,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.00301895599705,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.48141974199598,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.31110391500124,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.325560740002402,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 22.04773150199844,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 22.161498205009593,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.530803024007582,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.005471945007685,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.47445903100106,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.977257990999533,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.202544324001337,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.830855515999247,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.10749784299378,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.93719136600157,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.957239191001463,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.078914253003404,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.27630022700032,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.19230076000258,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.92961087900221,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.92602516699617,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.89752604600153,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.856529635999777,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.944545504006328,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.99163530699434,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.73716106199845,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.303901464994397,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.553821223001705,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.52265193200037,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.58549096499837,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.8577912549963,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.89296229000047,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 22.073899270001675,
+    "peak_gpu_bytes": 811259904
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.594983010995293,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.879778965001606,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.95445009800369,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.899843632998,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.31039103700141,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 16.999243580994516,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.256124831003945,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.628061856993554,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.499704818000282,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.530975164002484,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.500256857992554,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.132348182999976,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.028877882000415,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.428175164001914,
+    "peak_gpu_bytes": 534556672
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.508559231000618,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.18990011400183,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.537691296002777,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.995192034994034,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.737931630997537,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 25.710446543002945,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.939699956000823,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 22.0865531820009,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.37391486300612,
+    "peak_gpu_bytes": 493184000
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 495360,
+    "training_seconds": 16.74915885800192,
+    "peak_gpu_bytes": 496218112
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 24.722947390006084,
+    "peak_gpu_bytes": 567748608
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 516096,
+    "training_seconds": 25.214356336004585,
+    "peak_gpu_bytes": 570862592
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.911975244000587,
+    "peak_gpu_bytes": 592358400
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 2064384,
+    "training_seconds": 24.83960080400766,
+    "peak_gpu_bytes": 601665536
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 21.948153676000402,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 17129280,
+    "training_seconds": 22.069279338005344,
+    "peak_gpu_bytes": 815962112
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "penal",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.139990153998042,
+    "peak_gpu_bytes": 525624320
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "domain": "civil",
+    "steps": 300,
+    "tokens": 307200,
+    "trainable_parameters": 1969920,
+    "training_seconds": 17.016220748997057,
+    "peak_gpu_bytes": 534556672
+  }
+]

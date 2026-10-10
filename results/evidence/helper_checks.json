@@ -1,0 +1,118 @@
+{
+  "complete": true,
+  "checkpoints_checked": 10,
+  "router_test_decisions_checked": 155,
+  "results": [
+    {
+      "checkpoint": "full_20261013_civil_final.pt",
+      "method": "full",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "MCE_20261013_civil_final.pt",
+      "method": "MCE",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "MCE64_20261013_civil_final.pt",
+      "method": "MCE64",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "LoRA_r8_20261013_civil_final.pt",
+      "method": "LoRA_r8",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "LoRA_r32_20261013_civil_final.pt",
+      "method": "LoRA_r32",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "full_20261013_penal_final.pt",
+      "method": "full",
+      "order": [
+        "penal",
+        "civil"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "MCE_20261013_penal_final.pt",
+      "method": "MCE",
+      "order": [
+        "penal",
+        "civil"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "MCE64_20261013_penal_final.pt",
+      "method": "MCE64",
+      "order": [
+        "penal",
+        "civil"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "LoRA_r8_20261013_penal_final.pt",
+      "method": "LoRA_r8",
+      "order": [
+        "penal",
+        "civil"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    },
+    {
+      "checkpoint": "LoRA_r32_20261013_penal_final.pt",
+      "method": "LoRA_r32",
+      "order": [
+        "penal",
+        "civil"
+      ],
+      "max_validation_error": 0.0,
+      "inference_frozen_verified": true,
+      "router_prediction_logits_verified": true
+    }
+  ],
+  "maximum_error": 0.0
+}

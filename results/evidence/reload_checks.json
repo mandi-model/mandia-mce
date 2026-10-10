@@ -1,0 +1,182 @@
+[
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "checkpoint": "full_20261013_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "aa102cf08f79c46fb2081febae0232ab8351a20b411d0ee6b5d1118ef7a22687"
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "checkpoint": "MCE_20261013_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "30c677598a5a8dbbc4d443bf33a68969b1a57d375c7998413bb60ae2e388fbf8"
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "checkpoint": "MCE64_20261013_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "ea06ce137033134d8b0603dcb504e62e354e97a5d1d21d6c5e0539a7ca1f8761"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "checkpoint": "LoRA_r8_20261013_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "41f6fc87bebef83ccddf78ffdba8529124223fdc98ccb2ce4e5db091135220c6"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "checkpoint": "LoRA_r32_20261013_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "0567acce246b8e753a2c260b48c032290958cc0d393dc1ac0771d5df2759d5ac"
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "checkpoint": "MCE_20261014_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "5537e9edfd656da69114a732f3459b6efa62f395b7c8d908bb5c116d83aec7cf"
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "checkpoint": "MCE64_20261014_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "d0288c9f6500ab2923374f1bc59dbbcccd750849df8e7a36c6703516968564df"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "checkpoint": "LoRA_r8_20261014_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "f7ada53d295b28acb6b5a010b7a1274fa613fb372d9b65055f65692403d332f6"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "checkpoint": "LoRA_r32_20261014_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "44e4d1fcddde82d551fb2b2be92e30dd26ceb08db229a652980acf9060c79c54"
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "checkpoint": "full_20261014_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "b17a63e678802313c2b4d61a29fed189e7ede9b2d8845cab70c5e52d9947d4e3"
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "checkpoint": "MCE64_20261015_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "37a623f273f908cbe0489fdf7ef1f39a83bc91698f0b482d61bc331b3b6193e1"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "checkpoint": "LoRA_r8_20261015_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "58cd6f57dc58fae2a9e6bc6f7aa7ea01291ba94dc1d5367b2f23dec3fc49d48b"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "checkpoint": "LoRA_r32_20261015_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "2f353ca2a74dc8d470f829c75376a0cfaa17cc66d7e16eae934d286a31e9e3b0"
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "checkpoint": "full_20261015_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "a00aff5b032caeb75f6b5b6b3ccf5901d0601cbb24b0ee16c1064ea4117cab7e"
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "checkpoint": "MCE_20261015_civil_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "9c32ccc4aa9b1509d7dc668cc649d85e73a10506b0335c5f6dc15b8114ccee4d"
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "checkpoint": "full_20261013_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "5e9f5d1251bcc9d50f818d47620aacbf06b403a814da93b72fc17449d658725b"
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "checkpoint": "MCE_20261013_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "b37036122880e2ad0bf33fd49307177d02120b3c19973f983e0bdc2a61a8e659"
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "checkpoint": "MCE64_20261013_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "69a2042704baee8a6f2e1d0e69fa860d53222e62690f6f36ec6171236193a51d"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "checkpoint": "LoRA_r8_20261013_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "1289ff3f42e87702240f7037e59d4305456bcfd30fd8eac34ae0303a8110f25a"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "checkpoint": "LoRA_r32_20261013_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "a0e868632cc35a82e655cb5c188c02196105be603228baf145c437c76dfb7cb5"
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "checkpoint": "MCE_20261014_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "401a642c5a0529e45fb478778477fbfb6869359c3975b8a955a4ebb8e537dd98"
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "checkpoint": "MCE64_20261014_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "ab67ae5050a18752d68c5f4e5a9cd58dec17ca4e8ddbd34b3dc1e27980b5bff6"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "checkpoint": "LoRA_r8_20261014_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "cf0853cc33f0116a1c83d64e42b5465c8db3761eea9889b7c0ae87df10e1a1bc"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "checkpoint": "LoRA_r32_20261014_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "b2683636c7caab87a3f703b6437fa07672db8ca0d1cfea3810fbdd4b6be17824"
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "checkpoint": "full_20261014_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "40b7e7f22447f8d33cc56878fa986545e1d7cdd0117479a90ffae2f26495ff49"
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "checkpoint": "MCE64_20261015_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "ed5e289136170d94d145a7a6533551d61ec93471e46286c88ce59d9bf690efea"
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "checkpoint": "LoRA_r8_20261015_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "2e2c4459e596959c9daa5e7ac613b28a48b0807ae91fbe9b74a8d0b6815e40fa"
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "checkpoint": "LoRA_r32_20261015_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "13554de122275db66d44ae66904ab66360315fb3ca01dd09ca51562f38d8239e"
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "checkpoint": "full_20261015_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "b9fd783e7f4732d11aa8306e4bd2889e78d774e761981a620f68af688d8b106b"
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "checkpoint": "MCE_20261015_penal_final.pt",
+    "max_validation_error": 0.0,
+    "sha256": "47bac4aaa52c7caebc4110ffe2644d33e00b0c61bb623bea83d36ca61d74fe61"
+  }
+]

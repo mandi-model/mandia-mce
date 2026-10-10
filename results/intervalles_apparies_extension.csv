@@ -1,0 +1,9 @@
+order,domain,comparison,difference_nats,ci95_low,ci95_high,groups,documents,bootstrap_draws,interpretation
+"['civil', 'penal']",civil,MCE minus LoRA_r32,0.03595393905220183,0.02839608809557353,0.04511608491769847,58,105,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['civil', 'penal']",civil,MCE64 minus LoRA_r8,-0.001430072565437168,-0.006584512288958721,0.0046154767415399495,58,105,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['civil', 'penal']",penal,MCE minus LoRA_r32,-0.07268662286231445,-0.0861471624153138,-0.049713528135034414,31,50,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['civil', 'penal']",penal,MCE64 minus LoRA_r8,-0.026222574104553958,-0.03797930242158434,-0.013950887365400361,31,50,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['penal', 'civil']",civil,MCE minus LoRA_r32,0.03595393905220183,0.02839608809557353,0.04511608491769847,58,105,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['penal', 'civil']",civil,MCE64 minus LoRA_r8,-0.001430072565437168,-0.006584512288958721,0.0046154767415399495,58,105,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['penal', 'civil']",penal,MCE minus LoRA_r32,-0.07268662286231445,-0.0861471624153138,-0.049713528135034414,31,50,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"
+"['penal', 'civil']",penal,MCE64 minus LoRA_r8,-0.026222574104553958,-0.03797930242158434,-0.013950887365400361,31,50,2000,"descriptive; grouped term resampling conditional on fixed models, core and split; negative favors MCE"

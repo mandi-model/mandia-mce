@@ -1,0 +1,155 @@
+{
+  "metrics": {
+    "test_accuracy": 0.832258064516129,
+    "test_macro_f1": 0.7908014950166113,
+    "majority_baseline_accuracy": 0.6774193548387096,
+    "confusion_matrix_civil_penal": [
+      [
+        99,
+        6
+      ],
+      [
+        20,
+        30
+      ]
+    ],
+    "test_documents": 155,
+    "term_groups": 84,
+    "accuracy_ci95": [
+      0.7424183238636364,
+      0.8942754544890488
+    ],
+    "macro_f1_ci95": [
+      0.6237757675912979,
+      0.8703982442688931
+    ],
+    "json_reload_max_decision_error": 0.0,
+    "selected_C": 10.0
+  },
+  "forward_order_definition_losses": [
+    {
+      "method": "MCE",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "civil_oracle_loss_nats": {
+        "mean": 3.647923760031454,
+        "sd": 0.0037930396041626034
+      },
+      "civil_routed_loss_nats": {
+        "mean": 3.679652185159722,
+        "sd": 0.0049238781667863794
+      },
+      "civil_routing_penalty_nats": {
+        "mean": 0.031728425128268345,
+        "sd": 0.0011323260954682875
+      },
+      "penal_oracle_loss_nats": {
+        "mean": 3.6961058313727078,
+        "sd": 0.009907267242048703
+      },
+      "penal_routed_loss_nats": {
+        "mean": 3.7585379856292027,
+        "sd": 0.003924407037283839
+      },
+      "penal_routing_penalty_nats": {
+        "mean": 0.0624321542564951,
+        "sd": 0.009378383695167011
+      }
+    },
+    {
+      "method": "MCE64",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "civil_oracle_loss_nats": {
+        "mean": 3.7418039374320697,
+        "sd": 0.0014882070717386954
+      },
+      "civil_routed_loss_nats": {
+        "mean": 3.7620207554089995,
+        "sd": 0.0007292015792957054
+      },
+      "civil_routing_penalty_nats": {
+        "mean": 0.020216817976929608,
+        "sd": 0.0007591785293386912
+      },
+      "penal_oracle_loss_nats": {
+        "mean": 3.6842615957209466,
+        "sd": 0.004719927795785043
+      },
+      "penal_routed_loss_nats": {
+        "mean": 3.7776692414013886,
+        "sd": 0.004292571111809368
+      },
+      "penal_routing_penalty_nats": {
+        "mean": 0.09340764568044217,
+        "sd": 0.008553462640373984
+      }
+    },
+    {
+      "method": "LoRA_r8",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "civil_oracle_loss_nats": {
+        "mean": 3.740102435681747,
+        "sd": 0.002156033238103252
+      },
+      "civil_routed_loss_nats": {
+        "mean": 3.759255623604112,
+        "sd": 0.004433424622475185
+      },
+      "civil_routing_penalty_nats": {
+        "mean": 0.01915318792236483,
+        "sd": 0.0022847082663943244
+      },
+      "penal_oracle_loss_nats": {
+        "mean": 3.7080912342631094,
+        "sd": 0.003216438716289055
+      },
+      "penal_routed_loss_nats": {
+        "mean": 3.7876346682422732,
+        "sd": 0.005299412857329116
+      },
+      "penal_routing_penalty_nats": {
+        "mean": 0.07954343397916401,
+        "sd": 0.002098818483415596
+      }
+    },
+    {
+      "method": "LoRA_r32",
+      "order": [
+        "civil",
+        "penal"
+      ],
+      "civil_oracle_loss_nats": {
+        "mean": 3.607575875021013,
+        "sd": 0.0014167690294718403
+      },
+      "civil_routed_loss_nats": {
+        "mean": 3.65029872476882,
+        "sd": 0.0012318776389322447
+      },
+      "civil_routing_penalty_nats": {
+        "mean": 0.04272284974780657,
+        "sd": 0.001396587628764168
+      },
+      "penal_oracle_loss_nats": {
+        "mean": 3.762750458623719,
+        "sd": 0.009420094767281794
+      },
+      "penal_routed_loss_nats": {
+        "mean": 3.78183887012012,
+        "sd": 0.002773426120566859
+      },
+      "penal_routing_penalty_nats": {
+        "mean": 0.019088411496400948,
+        "sd": 0.009604652310205627
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the exploratory manuscript and repository; this work has no arXiv identifier or DOI."
+title: "Mandia MCE: modular adaptation, domain order and legal-term routing"
+type: software
+authors:
+  - name: "mandia"
+date-released: 2026-10-10
+version: "0.1.0"
+repository-code: "https://github.com/mandi-model/mandia-mce"
+url: "https://github.com/mandi-model/mandia-mce"
+abstract: "Exploratory comparison of residual domain adapters, separate LoRA banks and full fine-tuning on one French legal glossary with a 17.13M-parameter core. Corpus texts and weights are not distributed."

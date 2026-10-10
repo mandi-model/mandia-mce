@@ -1,0 +1,18 @@
+{
+  "input": "term before first newline only; no definition, expert loss, or test label in features",
+  "classes": [
+    "civil",
+    "penal"
+  ],
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "highest validation macro F1; lower C breaks ties",
+  "features": "char_wb TF-IDF ngrams 2..5; max_features 20000; min_df1; lowercase; L2 norm",
+  "classifier": "balanced logistic regression, max_iter1000, seed20261010",
+  "scope": "closed-set term routing for this glossary only; no general/OOD detection; no question routing claim",
+  "sklearn": "1.6.1",
+  "bootstrap": "2000 term-group resamples; conditional descriptive intervals"
+}

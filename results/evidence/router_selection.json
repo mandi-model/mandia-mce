@@ -1,0 +1,21 @@
+{
+  "selected_C": 10.0,
+  "trials": [
+    {
+      "C": 0.1,
+      "validation_macro_f1": 0.7646103896103896,
+      "validation_accuracy": 0.8275862068965517
+    },
+    {
+      "C": 1.0,
+      "validation_macro_f1": 0.7931034482758621,
+      "validation_accuracy": 0.8448275862068966
+    },
+    {
+      "C": 10.0,
+      "validation_macro_f1": 0.8116883116883117,
+      "validation_accuracy": 0.8620689655172413
+    }
+  ],
+  "test_evaluated_at_selection": false
+}

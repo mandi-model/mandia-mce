@@ -1,0 +1,6482 @@
+[
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.917212188243866,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.5096717563638116,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.7614427649456523,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.5515037924051285,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9349334187724745,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.2146016797204426,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.785495564341545,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.4303600843985165,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.788575865875656,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 7.138037815690041,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.396531162030615,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.4042990940442865,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 7.01616470515728,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.5100670139426358,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.9467157938669826,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 8.284740030765533,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.98191718282401,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "full",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6981344380300083,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9515704620510554,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9515704620510554,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6590440284008388,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7980075011807806,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7980075011807806,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5648405541186925,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6916499913984113,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6916499913984113,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.546223927831006,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.145155403949711,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.145155403949711,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.8393377163957085,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9487120306831756,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9487120306831756,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6532774986713186,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7839662640664193,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7839662640664193,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "MCE64",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.546689927131161,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.252300789343059,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.252300789343059,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.9640092406494505,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.976645694169921,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.976645694169921,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.674790412410982,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7816725561503284,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7816725561503284,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r8",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.542354086171026,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.0019823886965575,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.0019823886965575,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.7001981835315254,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7947765138858296,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7947765138858296,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0003,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.543829910758732,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.647080323397413,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.647080323397413,
+    "targets": 15747
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "phase": "tuning",
+    "method": "LoRA_r32",
+    "seed": 20261012,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5835575750027817,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.921278655529022,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.49988752275359,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.755146432673556,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.54186686873436,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.9131199764116777,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.205577913252846,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6725127857935242,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6725127857935242,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5328729106211054,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7729579397191726,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7729579397191726,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5423924047192714,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7734493411381433,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7734493411381433,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.54495938142379,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.629409364649566,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.629409364649566,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5697397578066434,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.686382219815183,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.686382219815183,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.549822657183371,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7726700585887887,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7726700585887887,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.570664287149638,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.774383155385252,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.774383155385252,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5639544691460423,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6374797378940236,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6374797378940236,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6047984156115302,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.904763899743557,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.4976914431803974,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.737110097905149,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.503926068544388,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.918829269346195,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.2236076252035115,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7746910637368427,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7746910637368427,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5601056855300377,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.770776740057382,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.770776740057382,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.558309552194118,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6369962822469657,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6369962822469657,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.60022099622186,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.906747594475746,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.496153680500155,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.702577456541505,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.5453565418720245,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.927462959059414,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.2274960542189843,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6777122508702056,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6777122508702056,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "civil",
+      "penal"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.557172726655471,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.948331907391548,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.295255116798041,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.2564529350315077,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.370946384966373,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.477447783022659,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.3871218496891693,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5328729106211054,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6725127857935242,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5328729106211054,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5423924047192714,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7729579397191726,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5423924047192714,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.54495938142379,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7734493411381433,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.54495938142379,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5697397578066434,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.629409364649566,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261013,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5697397578066434,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.549822657183371,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.686382219815183,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.549822657183371,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.570664287149638,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7726700585887887,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.570664287149638,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5639544691460423,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.774383155385252,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5639544691460423,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6047984156115302,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6374797378940236,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.6047984156115302,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.957689568400383,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.295556935975156,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.268851204433184,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.381299540400505,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.477927416947226,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261014,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.398969224189175,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5601056855300377,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.7746910637368427,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE64",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.5601056855300377,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.558309552194118,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.770776740057382,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r8",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.558309552194118,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.60022099622186,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6369962822469657,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "LoRA_r32",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.60022099622186,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.977836035192013,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.297224730243757,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.2832300852442433,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 5.3680576384067535,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.475368099318025,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "phase": "evaluation",
+    "method": "full",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.0001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.3684143798462096,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 0,
+    "step": 0,
+    "domain": "penal",
+    "loss_nats": 4.705760984406479,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 4.859277681736005,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 1,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.557172726655471,
+    "targets": 5336
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "general",
+    "loss_nats": 4.0596074759960175,
+    "targets": 8192
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "civil",
+    "loss_nats": 3.6777122508702056,
+    "targets": 15747
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "phase": "evaluation",
+    "method": "MCE",
+    "seed": 20261015,
+    "order": [
+      "penal",
+      "civil"
+    ],
+    "lr": 0.001,
+    "stage": 2,
+    "step": 300,
+    "domain": "penal",
+    "loss_nats": 3.557172726655471,
+    "targets": 5336
+  }
+]

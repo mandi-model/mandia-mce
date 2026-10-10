@@ -1,0 +1,12 @@
+{
+  "selected_lr": {
+    "full": 0.0001,
+    "MCE": 0.001,
+    "MCE64": 0.001,
+    "LoRA_r8": 0.001,
+    "LoRA_r32": 0.001
+  },
+  "selection": "minimum unweighted mean of final civil and penal validation losses at fixed step 300; lower LR breaks ties; no general/test selection",
+  "tuning_complete": true,
+  "test_evaluated_at_selection": false
+}

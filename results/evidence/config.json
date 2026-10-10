@@ -1,0 +1,63 @@
+{
+  "scope": "exploratory extension of one legal glossary; not the four-domain confirmatory study",
+  "methods": [
+    "full",
+    "MCE",
+    "MCE64",
+    "LoRA_r8",
+    "LoRA_r32"
+  ],
+  "lr_grid": [
+    0.0001,
+    0.0003,
+    0.001
+  ],
+  "tuning_seed": 20261012,
+  "evaluation_seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "orders": [
+    [
+      "civil",
+      "penal"
+    ],
+    [
+      "penal",
+      "civil"
+    ]
+  ],
+  "tuning_order": [
+    "civil",
+    "penal"
+  ],
+  "selection": "minimum unweighted mean of final civil and penal validation losses at fixed step 300; lower LR breaks ties; no general/test selection",
+  "steps_per_domain": 300,
+  "batch_size": 4,
+  "sequence_length": 256,
+  "warmup_steps": 30,
+  "validation_curve_steps": [
+    100,
+    200,
+    300
+  ],
+  "tokens_per_domain": 307200,
+  "maximum_walltime_seconds": 3600,
+  "optimizer": "AdamW .9/.95; matrix decay .1; clip 1; reset per domain",
+  "checkpoint": "fixed final 300, no checkpoint selection",
+  "source": "bernard-ng/french-legal-glossary",
+  "license_declared": "CC BY-NC-SA 4.0; private study",
+  "core_dropout": "full core train mode; all frozen cores eval mode; adapters dropout .1",
+  "test_protocol": "LR frozen after all tuning, then final models trained under fixed script; no selection or rerun from test results",
+  "precision": "bfloat16 autocast, FP32 weights",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "native_bf16": false,
+  "core_sha256": "38233f63ee915a882ee49f0bbf79b280389101ab46f2d09d27ad2f08559e43ab",
+  "data_manifest_sha256": "05b55ac818b79717462898e8d531005fcb8396f0feea7b9291104cd17d7205a5",
+  "tokenizer_sha256": "07fd856fa6e63c8e8594fda5b5d4317a11e906801c049066cd851eda328fb77d",
+  "source_sha256": "c26153be965d4ef30c6125ad4770827d0a91d5ce1851607092e33ab28ac5221d",
+  "selection_sha256": "8f44a950e63294f23026488cfc52539d72c0c94703c4bfe2c0812170c243b135",
+  "test_evaluation_started_after_selection": true
+}

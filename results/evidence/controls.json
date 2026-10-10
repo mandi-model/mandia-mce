@@ -1,0 +1,542 @@
+[
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_full_20261012_civil_3e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_full_20261012_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_3e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE_20261012_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_3e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_MCE64_20261012_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_3e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r8_20261012_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_3e-04",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "tuning_LoRA_r32_20261012_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261013_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261013_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261013_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261014_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261014_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261014_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261015_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261015_civil_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261015_civil_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261013_penal_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261013_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261013_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261013_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261013_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261014_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261014_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261014_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261014_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261014_penal_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE64_20261015_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r8_20261015_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_LoRA_r32_20261015_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "stage": 1,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_full_20261015_penal_1e-04",
+    "stage": 2,
+    "frozen_core_verified": false,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "stage": 1,
+    "frozen_core_verified": true,
+    "old_route_unchanged": false
+  },
+  {
+    "run": "evaluation_MCE_20261015_penal_1e-03",
+    "stage": 2,
+    "frozen_core_verified": true,
+    "old_route_unchanged": true
+  }
+]

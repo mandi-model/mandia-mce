@@ -1,0 +1,4 @@
+-r requirements-analysis.txt
+torch>=2.4
+tokenizers>=0.20
+scikit-learn==1.6.1

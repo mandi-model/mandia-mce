@@ -1,0 +1,27 @@
+{
+  "test_accuracy": 0.832258064516129,
+  "test_macro_f1": 0.7908014950166113,
+  "majority_baseline_accuracy": 0.6774193548387096,
+  "confusion_matrix_civil_penal": [
+    [
+      99,
+      6
+    ],
+    [
+      20,
+      30
+    ]
+  ],
+  "test_documents": 155,
+  "term_groups": 84,
+  "accuracy_ci95": [
+    0.7424183238636364,
+    0.8942754544890488
+  ],
+  "macro_f1_ci95": [
+    0.6237757675912979,
+    0.8703982442688931
+  ],
+  "json_reload_max_decision_error": 0.0,
+  "selected_C": 10.0
+}

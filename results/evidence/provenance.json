@@ -1,0 +1,89 @@
+{
+  "transformation": "JSON reserialization; term-group identifiers replaced by deterministic SHA-256 labels; previous private pilot identifier omitted from config. Numerical results are unchanged. No dataset text, vocabulary, weights or cloud URLs included.",
+  "files": {
+    "completion.json": {
+      "observed_original_sha256": "869baf8bdeed681c931bf68b2679a980b9076a3fa677a0c12ff9263a49cbcc50",
+      "public_sha256": "869baf8bdeed681c931bf68b2679a980b9076a3fa677a0c12ff9263a49cbcc50"
+    },
+    "config.json": {
+      "observed_original_sha256": "360073e212b9b160838a8f82b42e9d66be452402a97dd934f8ba8538623cc437",
+      "public_sha256": "b82ce79dfc10fd01cbc5185050a8f7aff84a0a376a2ffa4da1e7021d9deaaf23"
+    },
+    "test_results.json": {
+      "observed_original_sha256": "9222378ec5e0b9cbf8e44f779bef7da8309ee7a4137752d98d348793141c7c51",
+      "public_sha256": "b46b4e04daf310ebda71fa4cab5cda872823cf1f00d0fccf669e3879e1b04eaf"
+    },
+    "validation_curves.json": {
+      "observed_original_sha256": "4e71277c9719b23b3cd9ef9dfb68c0671aae0be116e269d4b2a74607507296aa",
+      "public_sha256": "4e71277c9719b23b3cd9ef9dfb68c0671aae0be116e269d4b2a74607507296aa"
+    },
+    "costs.json": {
+      "observed_original_sha256": "b39259f41f98bee24f0ad768990f5b594ea7da27e3174e5063d299d5487ef202",
+      "public_sha256": "b39259f41f98bee24f0ad768990f5b594ea7da27e3174e5063d299d5487ef202"
+    },
+    "reload_checks.json": {
+      "observed_original_sha256": "f83f3e5a82afe4d3fdec98db8eec8effcff0918e5b1a5b6ecce334b6120bb175",
+      "public_sha256": "f83f3e5a82afe4d3fdec98db8eec8effcff0918e5b1a5b6ecce334b6120bb175"
+    },
+    "lexical_overlap_audit.json": {
+      "observed_original_sha256": "5f6e2a771f4f30948a6b380c83bf363066be456ff6eb10c11cedd4cfafb39e42",
+      "public_sha256": "88a45e0ecc4ebd72694f1aaee81ac76527b72c810bcfe1e372c1ce605e8d9b62"
+    },
+    "test_baseline.json": {
+      "observed_original_sha256": "3dee07e206570c8561ad0ab6dcc1f74f5132db053d3e7e75627de19fb449c35b",
+      "public_sha256": "610ce0fd595107ad778289419f780b741350ec9fcedfc1afc999f0aeeb2ca0a2"
+    },
+    "tuning_results.json": {
+      "observed_original_sha256": "ec701fc65585e831e0d3d58982f65783c4fc74a0d1708825af15c020bcc8b2a1",
+      "public_sha256": "ec701fc65585e831e0d3d58982f65783c4fc74a0d1708825af15c020bcc8b2a1"
+    },
+    "selected_hyperparameters.json": {
+      "observed_original_sha256": "8f44a950e63294f23026488cfc52539d72c0c94703c4bfe2c0812170c243b135",
+      "public_sha256": "8f44a950e63294f23026488cfc52539d72c0c94703c4bfe2c0812170c243b135"
+    },
+    "test_protocol.json": {
+      "observed_original_sha256": "ee213a284fcbfdf7a9b177f81597f2c86d5d33af7ca084b7199d6435d9498fdd",
+      "public_sha256": "ee213a284fcbfdf7a9b177f81597f2c86d5d33af7ca084b7199d6435d9498fdd"
+    },
+    "validation_matrix.json": {
+      "observed_original_sha256": "a2c5a3d50cb521beae1f1cc58c6e327bb8d788be578aaabf1f706a432e5b4fcc",
+      "public_sha256": "a2c5a3d50cb521beae1f1cc58c6e327bb8d788be578aaabf1f706a432e5b4fcc"
+    },
+    "controls.json": {
+      "observed_original_sha256": "c3b2a3d0447a24ad1ba9243d1b3d77ed116fc88f026f45999ccca92724e16ee3",
+      "public_sha256": "c3b2a3d0447a24ad1ba9243d1b3d77ed116fc88f026f45999ccca92724e16ee3"
+    },
+    "router_protocol.json": {
+      "observed_original_sha256": "1b5efeba7fd2dc9ae87d8242deb2c733abc7a55d22df6d27380dc4b96aa51db3",
+      "public_sha256": "1b5efeba7fd2dc9ae87d8242deb2c733abc7a55d22df6d27380dc4b96aa51db3"
+    },
+    "router_selection.json": {
+      "observed_original_sha256": "99fb9e18d672de6af69976cb17ff7bed0f201147031a4bf1919ddaf64e2fa213",
+      "public_sha256": "99fb9e18d672de6af69976cb17ff7bed0f201147031a4bf1919ddaf64e2fa213"
+    },
+    "router_metrics.json": {
+      "observed_original_sha256": "4fd70ff28720185ac06d330f22dc628db4b5f8d44944b0df76d7a8d320b1b9c1",
+      "public_sha256": "4fd70ff28720185ac06d330f22dc628db4b5f8d44944b0df76d7a8d320b1b9c1"
+    },
+    "router_test_predictions.json": {
+      "observed_original_sha256": "d4fb3752a2fcfeb2278d452bb077f992895340161072868841022901cb59c470",
+      "public_sha256": "cddd475de359e69d4a4f9b55fd244e4ef65dc88359e29068f0cde54b4e9d8cd3"
+    },
+    "router_definition_baseline.json": {
+      "observed_original_sha256": "a831c59e3da051d624d83e1ea05a667d8abfad691e5c27524102f073177b7511",
+      "public_sha256": "a36e22429561305a2bd240ac4fdc6dce4a562de89d8282dc9459461c941c8cf8"
+    },
+    "routed_test_results.json": {
+      "observed_original_sha256": "af05890cd570bc90353536ad870b5354ecb11dfd291f68cf1188a43e2b785cae",
+      "public_sha256": "76efdf6125dbc6773c8972cc8faf4d4723bd152ab69385c1ea1073cdf541ed5a"
+    },
+    "router_completion.json": {
+      "observed_original_sha256": "b268731ab924d63739b648d59303b0d53d41b5bcb84fc484830a401a9256a11b",
+      "public_sha256": "b268731ab924d63739b648d59303b0d53d41b5bcb84fc484830a401a9256a11b"
+    },
+    "helper_checks.json": {
+      "observed_original_sha256": "32ee13727dfb38ee18a4ee2123480d3730876b9d5aa0cc317f3652092df6388a",
+      "public_sha256": "32ee13727dfb38ee18a4ee2123480d3730876b9d5aa0cc317f3652092df6388a"
+    }
+  }
+}
